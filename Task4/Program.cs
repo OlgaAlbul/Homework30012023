@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Введите координату X первой точки");
+int numberX1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите координату Y первой точки");
+int numberY1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите координату X второй точки");
+int numberX2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите координату Y второй точки");
+int numberY2 = int.Parse(Console.ReadLine());
+double dist = Math.Sqrt((numberX2-numberX1)*(numberX2-numberX1)+(numberY2-numberY1)*(numberY2-numberY1));
+Console.Write("Расстояние между точками равно ");
+Console.WriteLine(dist);
